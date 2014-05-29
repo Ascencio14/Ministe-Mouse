@@ -1,8 +1,17 @@
+@import url("Urban_Elegance_Bold/stylesheet.css");
+/*@font-face {
+    font-family:UrbanEleganceBold;
+    src: url(UrbanEleganceBold.ttf);
+
+}*/
+
+
+
 body{
-  background: #fff;
-font-family: Arial;
-font-size: 16px;
-    margin: 
+	background: #fff;
+	
+	font-size: 16px;
+  margin: 
 }
 
 header
@@ -27,11 +36,6 @@ header #logo img
     
 }
 
-@font-face{
- font-family: 'MiNuevaFuente';
-    
-src: url('UrbanEleganceBold.ttf')
-}
 
 
 
@@ -40,7 +44,7 @@ header h1
     Font-size:3em;
     font-weight: normal;
     margin: 0.5em 90px 0 0;  
-    font-family:'MiNuevaFuente'; 
+    font-family: UrbanEleganceBold; 
     text-align: center;
   }
 
@@ -107,14 +111,10 @@ nav ul li a
 }
 
 header h1{
-  font-family: 'MiNuevaFuente'
+  font-family: UrbanEleganceBold;
 }
  
-@font-face {
-    font-family:'MiNuevaFuente' ;
-    src: url(UrbanEleganceBold.ttf);
 
-}
 
 #contenido .item .item_titulo
 {
@@ -341,16 +341,17 @@ article ul li
     
      #contenido .item2
     {
-        width: 49%;
+        width: 40%;
         float: left;
         margin-right: 1%;
+		/*max-height:600px;*/
     }
     
     
     
        #contenido .item3
     {
-        width: 49%;
+        width: 40%;
         float: left;
         margin-right: 1%;
     }
