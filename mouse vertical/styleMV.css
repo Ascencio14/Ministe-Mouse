@@ -1,9 +1,9 @@
-@import url("Urban_Elegance_Bold/stylesheet.css");
-/*@font-face {
-    font-family:UrbanEleganceBold;
-    src: url(UrbanEleganceBold.ttf);
 
-}*/
+/*@font-face {
+    font-family:MyNewFont;
+    src: url(Origin-Bold.ttf);*/
+
+}
 
 
 
@@ -44,7 +44,7 @@ header h1
     Font-size:3em;
     font-weight: normal;
     margin: 0.5em 90px 0 0;  
-    font-family: UrbanEleganceBold; 
+   /* font-family: Origin-Bold;*/ 
     text-align: center;
   }
 
@@ -53,8 +53,10 @@ header h1
 
 header h3
 {
+    font-family: sans-serif;
+    font-size: 25px;
     text-align: center;
-   margin: 0.1em 90px 0 0; 
+   margin: 0em 90px 0 0; 
     
 }
 nav
@@ -102,6 +104,7 @@ nav ul li a
   
 #contenido .item
 {
+    font-family: sans-serif;
     background: #f4f4f4;
     margin: 0.2em;
     
@@ -111,7 +114,9 @@ nav ul li a
 }
 
 header h1{
-  font-family: UrbanEleganceBold;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+  /*font-family: Origin-Bold;*/
 }
  
 
@@ -142,6 +147,7 @@ header h1{
 
 #contenido .item2
 {
+    font-family: sans-serif;
     background: #f4f4f4;
    margin: 1em 0.2em;
 }
@@ -183,6 +189,7 @@ margin: 0.2em;
 
 #contenido .item3 .item3_galeria
 {
+    font-family: sans-serif;
     background: #d8e3dc;
     box-shadow:rgba(0,0,0,0.5) -2px 2px 10px;
     
@@ -234,6 +241,7 @@ article ul li
 
 #contenido .item4
 {
+    font-family: sans-serif;
     background: #f4f4f4;
    margin: 1em 0.2em;
 
@@ -253,6 +261,7 @@ article ul li
 
 #contenido .parrafo3
 {
+    font-family: sans-serif;
    background: #f4f4f4;
    margin: 1em 0.2em;
 
@@ -264,6 +273,7 @@ article ul li
 
 #contenido .parrafo4
 {
+    font-family: sans-serif;
     background: #f4f4f4;
    margin: 1em 0.2em;
 
@@ -273,6 +283,13 @@ article ul li
 
 }
 
+#contenido .feliz img
+ 
+{
+    width: 45%;
+    text-align: center;
+    margin: 0.2em 0 0.2em 0em;
+}
 
 
 
@@ -298,7 +315,7 @@ article ul li
 
 #contenido .item6
 {
-     background: #0e51a7;
+     background: rgba(142, 229, 255, 0.71);
     color: rgba(255,255,255,0.7);
     text-align: center;
     padding: 0em;
@@ -341,9 +358,9 @@ article ul li
     
      #contenido .item2
     {
-        width: 40%;
+        width: 45%;
         float: left;
-        margin-right: 1%;
+        margin-right: 5%;
 		/*max-height:600px;*/
     }
     
@@ -383,9 +400,94 @@ article ul li
         float: left;
         margin-right: 1%;
     }
+    
+    #contenido .feliz img{
+        width: 45%;
+        float: left;
+        margin-right: 1%;
+    }
           #contenido .item6
     {
        clear: both;
+    }
+
+}
+
+@media screen and (min-width:1024px)
+{
+    body{
+        margin: 5em;
+        
+    }
+    
+    
+    #contenido 
+    {
+        overflow: hidden;
+    }
+    
+    #contenido .item
+    {
+        width: 49%;
+        float: left;
+        margin-right: 1%;
+    }
+    
+     #contenido .item2
+    {
+        width: 40%;
+        float: left;
+        margin-right: 1%;
+		/*max-height:600px;*/
+    }
+    
+    
+    
+       #contenido .item3
+    {
+        width: 48%;
+        float: left;
+        margin-right: 2%;
+    }
+    
+         #contenido .item4
+    {
+        width: 46%;
+        float: left;
+        margin-right:1%;
+    }
+    
+    #contenido .muñeca
+    {
+        width: 45%;
+        float: left;
+        margin-right: 1%;
+    }
+    
+    #contenido .parrafo3
+    {
+        width: 45%;
+        float: left;
+        margin-right: 1%;
+    }
+    
+    #contenido .parrafo4
+    {
+         width: 45%;
+        float: left;
+        margin-right: 1%;
+    }
+    
+     #contenido .feliz img{
+        width: 45%;
+        float: left;
+        margin-right: 1%;
+    }
+    
+          #contenido .item6{
+        background-color: #9cf3ff;
+       clear: both;
+        
     }
 
 }
